@@ -5,20 +5,35 @@
 }
 
 .profile-img{
-    background-color: #282A91 ;
+    background-color: #474AFF ;
     border-radius: 50%;
 }
+
 .btn-primary{
     color: white;
-    background-color: #282A91;
+    background-color: #474AFF;
 }
 .btn-primary:hover{
-    background-color: #1F206F;
+    background-color: #3c3ed4;
 }
 .btn-outline-dark{
-    border:1px solid #1F206F;
-    color:#1F206F;
+    border:1px solid #474AFF;
+    color:#474AFF;
 }
 .btn-outline-dark:hover{
-    background-color: #1F206F;
+    background-color: #3c3ed4;
 } 
+.title{
+    text-align: center;
+}
+
+
+
+/* about seciton css */
+#About{
+    background-color: #474aff2a;
+}
+#About .info{
+    background-color: #6869aa75;
+    border-radius: 8px;
+}
