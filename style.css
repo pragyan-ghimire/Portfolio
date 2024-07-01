@@ -53,7 +53,19 @@ nav{
 }
 
 
+
 /* contact section */
 #Contact{
     background-color: #474aff2a;
+}
+
+
+/* footer section  */
+.footer-icon i{
+    color: #58584b;
+}
+.footer-icon i:hover{
+    color: #282A91;
+    transform: scale(1.1);
+    transition: .2s all ease;
 }
