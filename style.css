@@ -32,7 +32,9 @@ nav{
     background-color:#f8f9fa;
     border-bottom: 1px solid #8f94999c;
 }
-
+.section-padding{
+    padding: 90px 0 90px 0;
+}
 
 /* about seciton css */
 #About{
@@ -48,6 +50,7 @@ nav{
 /* #Works{
     background-color: #474AFF;
 } */
+
 #Works .card-body{
     border-top: 1px solid #8f94999c;
 }
