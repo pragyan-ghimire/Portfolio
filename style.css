@@ -28,6 +28,11 @@
 }
 
 
+nav{
+    background-color:#f8f9fa;
+    border-bottom: 1px solid #8f94999c;
+}
+
 
 /* about seciton css */
 #About{
@@ -36,4 +41,13 @@
 #About .info{
     background-color: #6869aa75;
     border-radius: 8px;
+}
+
+
+/* works section css */
+/* #Works{
+    background-color: #474AFF;
+} */
+#Works .card-body{
+    border-top: 1px solid #8f94999c;
 }

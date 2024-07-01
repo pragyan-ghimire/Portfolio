@@ -1,78 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
-    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Works</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me</a>
-                    </li>
-
-                </ul>
-            </div>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
+
     <!-- hero section -->
     <section id="hero">
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="./assets/images/pp.png" class="profile-img d-block mx-lg-auto img-fluid"
-                        alt="Profile image" width="350px" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I'm Pragyan.
-                    </h1>
-                    <p class="lead">
-                        A frontend developer currently pursuing Bachelor's Degree in Computer Engineering
-                        from Pulchowk Campus, Lalitpur.
-                    </p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact Me</button>
-                        <button type="button" class="btn btn-outline-dark btn-lg px-4">Works</button>
-                    </div>
-                </div>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./assets/images/pp.png"
+              class="profile-img d-block mx-lg-auto img-fluid"
+              alt="Profile image"
+              width="350px"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Hi, I'm Pragyan.
+            </h1>
+            <p class="lead">
+              A frontend developer currently pursuing Bachelor's Degree in
+              Computer Engineering from Pulchowk Campus, Lalitpur.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                Contact Me
+              </a>
+              <a type="button" class="btn btn-outline-dark btn-lg px-4">
+                Works
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- about section -->
     <section id="About" class="py-5">
-        <div class="container">
-            <h4 class="title mb-4">About Me</h4>
-            <div class="row justify-content-around align-items-center"> 
-                <img class="col-md-5 mb-2 workspace" src="./assets/images/workspace.jpg" alt="Workspace img"  width="350px">
-                <div class="col-md-6 about-description">
-                    <p class="detail lead">
-                        I'm Pragyan Ghimire, a bachelor's in computer engineering student from Nepal
-                        with a passion for Frontend Development. I enjoy creating clean and user-friendly
-                        webistes, turning ideas into visually satisfying digital experience.
-                    </p>
-                    <!-- <div class="d-flex justify-content-md-start gap-3 mb-3">
+      <div class="container">
+        <h4 class="title mb-4">About Me</h4>
+        <div class="row justify-content-around align-items-center">
+          <img
+            class="col-md-5 mb-2 workspace img-fluid"
+            src="./assets/images/workspace.jpg"
+            alt="Workspace img"
+            width="350px"
+          />
+          <div class="col-md-6 about-description">
+            <p class="lead">
+              I'm Pragyan Ghimire, a bachelor's in computer engineering student
+              from Nepal with a passion for Frontend Development. I enjoy
+              creating clean and user-friendly webistes, turning ideas into
+              visually satisfying digital experience.
+            </p>
+            <!-- <div class="d-flex justify-content-md-start gap-3 mb-3">
                         <div class="info px-4 py-4 ">
                             <h5>Projects</h5>
                             <h5> 3+</h5>
@@ -82,25 +115,102 @@
                             <h5>1yr+</h5>
                         </div>
                     </div> -->
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Download CV</button>
-
-                </div>
-            </div>
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+              Download CV
+            </button>
+          </div>
         </div>
-
+      </div>
     </section>
-    <!-- works section -->
-    <section id="Works">
 
+    <!-- works section -->
+    <section id="Works" class="py-5">
+      <div class="container bg-body-tertiary">
+        <h4 class="title mb-4">My Latest Works</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="./assets/images/projects/project1.PNG"
+                alt="Mangad project"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a type="button" class="btn btn-sm btn-outline-dark">
+                      View
+                    </a>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="./assets/images/projects/project2.PNG"
+                alt="Visit Pokhara project"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a type="button" class="btn btn-sm btn-outline-dark">
+                      View
+                    </a>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="./assets/images/projects/project3.PNG"
+                alt="Portfolio project"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a type="button" class="btn btn-sm btn-outline-dark">
+                      View
+                    </a>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- contact section -->
-    <section id="Contact">
+    <section id="Contact"></section>
 
-    </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
